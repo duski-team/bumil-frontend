@@ -353,11 +353,14 @@ export default {
         playAgain: function() {
           console.log(this.responses)
             let bulk = []
+            let user = localStorage.getItem('idUser')
+            let angka = parseInt(user)
             this.responses.forEach((element, index) => {
             let penampung = {}
             penampung.pengetahuanId = index + 1
             penampung.jawaban = this.responses[index][0]  
-            penampung.point = this.responses[index][1]  
+            penampung.point = this.responses[index][1] 
+            penampung.userId = angka
             bulk.push(penampung)    
             });
             console.log(bulk, 'ini bulk')
