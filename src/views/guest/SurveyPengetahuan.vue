@@ -364,7 +364,10 @@ export default {
             bulk.push(penampung)    
             });
             console.log(bulk, 'ini bulk')
-            axios.post(ipBackend + '/poolPengetahuan/screening', bulk, 
+            axios.post(ipBackend + '/poolPengetahuan/screening', 
+            {
+              bulk : bulk
+            }, 
             {
                 headers: {
                     token: localStorage.getItem("token"),

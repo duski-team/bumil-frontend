@@ -77,15 +77,15 @@ export default {
                     answers: [
                         {
                         text: 'a.	14 hari pasca keguguran',
-                        value: 3
+                        value: ['A', 0]
                         },
                         {
                         text: 'b.	Setelah persalinan sampai kurun waktu 6 minggu (42 hari)',
-                        value: 1
+                        value: ['B',1]
                         },
                         {
                         text: 'c.	Tidak tahu',
-                        value: 2
+                        value: ['C', 0]
                         },
                     ]
                     },
@@ -94,15 +94,15 @@ export default {
                     answers: [
                         {
                         text: 'a.	Mencegah kehamilan yang tidak direncanakan',
-                        value: 2
+                        value: ['A', 0]
                         },
                         {
                         text: 'b.	Mengatur jarak kelahiran ',
-                        value: 3
+                        value: ['B', 0]
                         },
                         {
                         text: 'c.	Semua benar',
-                        value: 1
+                        value: ['C', 1]
                         },
                     ]
                     },
@@ -111,15 +111,15 @@ export default {
                     answers: [
                         {
                         text: 'a.	Alat kontrasepsi yang dimasukkan kedalam rongga rahim',
-                        value: 1
+                        value: ['A', 1]
                         },
                         {
                         text: 'b.	Alat kontrasepsi yang berisi hormon dan dimasukkan dibawah kulit ',
-                        value: 2
+                        value: ['B', 0]
                         },
                         {
                         text: 'c.	Obat kontrasepsi yang disuntikkan setiap bulan. ',
-                        value: 3
+                        value: ['C', 0]
                         },
                     ]
                     },
@@ -128,15 +128,15 @@ export default {
                     answers: [
                         {
                         text: 'a.	Benar',
-                        value: 1
+                        value: ['A', 1]
                         },
                         {
                         text: 'b.	Salah',
-                        value: 2
+                        value: ['B', 0]
                         },
                         {
                         text: 'c.	Tidak tahu',
-                        value: 3
+                        value: ['C', 0]
                         },
                     ]
                     },
@@ -145,15 +145,15 @@ export default {
                     answers: [
                         {
                         text: 'a.	Kurang dari 48 jam setelah melahirkan',
-                        value: 1
+                        value: ['A', 1]
                         },
                         {
                         text: 'b.	Hari terakhir menstruasi',
-                        value: 2
+                        value: ['B', 0]
                         },
                         {
                         text: 'c.	Tidak tahu',
-                        value: 3
+                        value: ['C', 0]
                         },
                     ]
                     },
@@ -162,15 +162,15 @@ export default {
                     answers: [
                         {
                         text: 'a.	Mirena ',
-                        value: 2
+                        value: ['A', 0]
                         },
                         {
                         text: 'b.	Copper T 380 A',
-                        value: 1
+                        value: ['B', 1]
                         },
                         {
                         text: 'c.	Tidak tahu',
-                        value: 3
+                        value: ['C', 0]
                         },
                     ]
                     },
@@ -179,15 +179,15 @@ export default {
                     answers: [
                         {
                         text: 'a.	Saat hamil',
-                        value: 1
+                        value: ['A', 1]
                         },
                         {
                         text: 'b.	Setelah melahirkan',
-                        value: 2
+                        value: ['B', 0]
                         },
                         {
                         text: 'c.	Tidak tahu',
-                        value: 3
+                        value: ['C', 0]
                         },
                     ]
                     },
@@ -196,15 +196,15 @@ export default {
                     answers: [
                         {
                         text: 'a.	Dapat mengganggu produksi ASI',
-                        value: 2
+                        value: ['A', 0]
                         },
                         {
                         text: 'b.	Kesuburan dapat langsung kembali setelah IUD/Spiral ',
-                        value: 1
+                        value: ['B', 1]
                         },
                         {
                         text: 'c.	Dapat mencegah penularan penyakit kelamin',
-                        value: 3
+                        value: ['C', 0]
                         },
                     ]
                     },
@@ -213,15 +213,15 @@ export default {
                     answers: [
                         {
                         text: 'a.	Rumah Sakit',
-                        value: 3
+                        value: ['A', 0]
                         },
                         {
                         text: 'b.	Puskesmas',
-                        value: 2
+                        value: ['B', 0]
                         },
                         {
                         text: 'c.	Semua benar',
-                        value: 1
+                        value: ['C', 1]
                         },
                     ]
                     },
@@ -230,15 +230,15 @@ export default {
                     answers: [
                         {
                         text: 'a.	Dapat keluar sendiri jika ukuran IUD tidak cocok dengan rahim',
-                        value: 1
+                        value: ['A', 1]
                         },
                         {
                         text: 'b.	Pemakaian harus disiplin setiap hari',
-                        value: 2
+                        value: ['B', 0]
                         },
                         {
                         text: 'c.	Semua benar',
-                        value: 3
+                        value: ['C', 0]
                         },
                     ]
                     },
@@ -247,15 +247,15 @@ export default {
                     answers: [
                         {
                         text: 'a.	Pernah melahirkan dan mempunyai anak',
-                        value: 1
+                        value: ['A', 1]
                         },
                         {
                         text: 'b.	Ibu yang mengalami ketuban pecah dini',
-                        value: 2
+                        value: ['B', 0]
                         },
                         {
                         text: 'c.	Memiliki penyakit kelamin dan HIV',
-                        value: 3
+                        value: ['C', 0]
                         },
                     ]
                     },
@@ -264,15 +264,15 @@ export default {
                     answers: [
                         {
                         text: 'a.	Aman digunakan pada ibu menyusui',
-                        value: 1
+                        value: ['A', 1]
                         },
                         {
                         text: 'b.	Mudah, dan dapat digunakan sendiri',
-                        value: 2
+                        value: ['B', 0]
                         },
                         {
                         text: 'c.	Dapat mencegah dari penyakit kelamin dan HIV',
-                        value: 3
+                        value: ['C', 0]
                         },
                     ]
                     },
@@ -281,15 +281,15 @@ export default {
                     answers: [
                         {
                         text: 'a.	Satu minggu setelah pemasangan',
-                        value: 3
+                        value: ['A', 0]
                         },
                         {
                         text: 'b.	Kapan saja setiap selesai haid ',
-                        value: 2
+                        value: ['B', 0]
                         },
                         {
                         text: 'c.	Semua benar',
-                        value: 1
+                        value: ['C', 1]
                         },
                     ]
                     },
@@ -298,15 +298,15 @@ export default {
                     answers: [
                         {
                         text: 'a.	Dalam kurun waktu 10 menit setelah ari-ari lahir.',
-                        value: 1
+                        value: ['A', 1]
                         },
                         {
                         text: 'b.	Kurang dari 48 jam setelah melahirkan',
-                        value: 2
+                        value: ['B', 1]
                         },
                         {
                         text: 'c.	Tidak tahu',
-                        value: 3
+                        value: ['C', 0]
                         },
                     ]
                     },
@@ -315,15 +315,15 @@ export default {
                     answers: [
                         {
                         text: 'a.	Hanya bisa dipasang dan dilepas oleh tenaga kesehatan terlatih',
-                        value: 2
+                        value: ['A', 0]
                         },
                         {
                         text: 'b.	Tidak mengganggu kenyamanan hubungan seksual dengan suami',
-                        value: 1
+                        value: ['B', 1]
                         },
                         {
                         text: 'c.	Tidak tahu',
-                        value: 3
+                        value: ['C', 0]
                         },
                     ]
                     },
@@ -351,13 +351,34 @@ export default {
         },
             
         playAgain: function() {
-          let skor = 0
+          console.log(this.responses)
+            let bulk = []
+            let user = localStorage.getItem('idUser')
+            let angka = parseInt(user)
             this.responses.forEach((element, index) => {
-                if(this.responses[index] == 1){
-                  skor +=1
-                }
+            let penampung = {}
+            penampung.pengetahuanId = index + 1
+            penampung.jawaban = this.responses[index][0]  
+            penampung.point = this.responses[index][1] 
+            penampung.userId = angka
+            bulk.push(penampung)    
             });
-            console.log(skor)
+            console.log(bulk, 'ini bulk')
+            axios.post(ipBackend + '/postPoolPengetahuan/screening', 
+            {
+              bulk : bulk
+            }, 
+            {
+                headers: {
+                    token: localStorage.getItem("token"),
+                },
+            })
+            .then(res => {
+                console.log(res)
+            })
+            .catch(err => {
+                console.log(err)
+            })
         },
     }
 }

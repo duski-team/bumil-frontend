@@ -77,19 +77,19 @@ export default {
                     answers: [
                         {
                         text: 'Sangat Setuju',
-                        value: 4
+                        value: ['SS', 4]
                         },
                         {
                         text: 'Setuju',
-                        value: 3
+                        value: ['S', 3]
                         },
                         {
                         text: 'Tidak Setuju',
-                        value: 2
+                        value: ['TS', 2]
                         },
                         {
                         text: 'Sangat Tidak Setuju',
-                        value: 1
+                        value: ['STS', 1]
                         },
                     ]
                     },
@@ -98,19 +98,19 @@ export default {
                     answers: [
                         {
                         text: 'Sangat Setuju',
-                        value: 1
+                        value: ['SS', 1]
                         },
                         {
                         text: 'Setuju',
-                        value: 2
+                        value: ['S', 2]
                         },
                         {
                         text: 'Tidak Setuju',
-                        value: 3
+                        value: ['TS', 3]
                         },
                         {
                         text: 'Sangat Tidak Setuju',
-                        value: 4
+                        value: ['STS', 4]
                         },
                     ]
                     },
@@ -119,19 +119,19 @@ export default {
                     answers: [
                         {
                         text: 'Sangat Setuju',
-                        value: 1
+                        value: ['SS', 1]
                         },
                         {
                         text: 'Setuju',
-                        value: 2
+                        value: ['S', 2]
                         },
                         {
                         text: 'Tidak Setuju',
-                        value: 3
+                        value: ['TS', 3]
                         },
                         {
                         text: 'Sangat Tidak Setuju',
-                        value: 4
+                        value: ['STS', 4]
                         },
                     ]
                     },
@@ -140,19 +140,19 @@ export default {
                     answers: [
                         {
                         text: 'Sangat Setuju',
-                        value: 4
+                        value: ['SS', 4]
                         },
                         {
                         text: 'Setuju',
-                        value: 3
+                        value: ['S', 3]
                         },
                         {
                         text: 'Tidak Setuju',
-                        value: 2
+                        value: ['TS', 2]
                         },
                         {
                         text: 'Sangat Tidak Setuju',
-                        value: 1
+                        value: ['STS', 1]
                         },
                     ]
                     },
@@ -161,19 +161,19 @@ export default {
                     answers: [
                         {
                         text: 'Sangat Setuju',
-                        value: 4
+                        value: ['SS', 4]
                         },
                         {
                         text: 'Setuju',
-                        value: 3
+                        value: ['S', 3]
                         },
                         {
                         text: 'Tidak Setuju',
-                        value: 2
+                        value: ['TS', 2]
                         },
                         {
                         text: 'Sangat Tidak Setuju',
-                        value: 1
+                        value: ['STS', 1]
                         },
                     ]
                     },
@@ -182,19 +182,19 @@ export default {
                     answers: [
                         {
                         text: 'Sangat Setuju',
-                        value: 1
+                        value: ['SS', 1]
                         },
                         {
                         text: 'Setuju',
-                        value: 2
+                        value: ['S', 2]
                         },
                         {
                         text: 'Tidak Setuju',
-                        value: 3
+                        value: ['TS', 3]
                         },
                         {
                         text: 'Sangat Tidak Setuju',
-                        value: 4
+                        value: ['STS', 4]
                         },
                     ]
                     },
@@ -203,19 +203,19 @@ export default {
                     answers: [
                         {
                         text: 'Sangat Setuju',
-                        value: 4
+                        value: ['SS', 4]
                         },
                         {
                         text: 'Setuju',
-                        value: 3
+                        value: ['S', 3]
                         },
                         {
                         text: 'Tidak Setuju',
-                        value: 2
+                        value: ['TS', 2]
                         },
                         {
                         text: 'Sangat Tidak Setuju',
-                        value: 1
+                        value: ['STS', 1]
                         },
                     ]
                     },
@@ -224,19 +224,19 @@ export default {
                     answers: [
                         {
                         text: 'Sangat Setuju',
-                        value: 4
+                        value: ['SS', 4]
                         },
                         {
                         text: 'Setuju',
-                        value: 3
+                        value: ['S', 3]
                         },
                         {
                         text: 'Tidak Setuju',
-                        value: 2
+                        value: ['TS', 2]
                         },
                         {
                         text: 'Sangat Tidak Setuju',
-                        value: 1
+                        value: ['STS', 1]
                         },
                     ]
                     },
@@ -245,19 +245,19 @@ export default {
                     answers: [
                         {
                         text: 'Sangat Setuju',
-                        value: 1
+                        value: ['SS', 1]
                         },
                         {
                         text: 'Setuju',
-                        value: 2
+                        value: ['S', 2]
                         },
                         {
                         text: 'Tidak Setuju',
-                        value: 3
+                        value: ['TS', 3]
                         },
                         {
                         text: 'Sangat Tidak Setuju',
-                        value: 4
+                        value: ['STS', 4]
                         },
                     ]
                     },
@@ -266,19 +266,19 @@ export default {
                     answers: [
                         {
                         text: 'Sangat Setuju',
-                        value: 4
+                        value: ['SS', 4]
                         },
                         {
                         text: 'Setuju',
-                        value: 3
+                        value: ['S', 3]
                         },
                         {
                         text: 'Tidak Setuju',
-                        value: 2
+                        value: ['TS', 2]
                         },
                         {
                         text: 'Sangat Tidak Setuju',
-                        value: 1
+                        value: ['STS', 1]
                         },
                     ]
                     },
@@ -287,19 +287,19 @@ export default {
                     answers: [
                         {
                         text: 'Sangat Setuju',
-                        value: 1
+                        value: ['SS', 1]
                         },
                         {
                         text: 'Setuju',
-                        value: 2
+                        value: ['S', 2]
                         },
                         {
                         text: 'Tidak Setuju',
-                        value: 3
+                        value: ['TS', 3]
                         },
                         {
                         text: 'Sangat Tidak Setuju',
-                        value: 4
+                        value: ['STS', 4]
                         },
                     ]
                     },
@@ -308,19 +308,19 @@ export default {
                     answers: [
                         {
                         text: 'Sangat Setuju',
-                        value: 4
+                        value: ['SS', 4]
                         },
                         {
                         text: 'Setuju',
-                        value: 3
+                        value: ['S', 3]
                         },
                         {
                         text: 'Tidak Setuju',
-                        value: 2
+                        value: ['TS', 2]
                         },
                         {
                         text: 'Sangat Tidak Setuju',
-                        value: 1
+                        value: ['STS', 1]
                         },
                     ]
                     },
@@ -329,19 +329,19 @@ export default {
                     answers: [
                         {
                         text: 'Sangat Setuju',
-                        value: 4
+                        value: ['SS', 4]
                         },
                         {
                         text: 'Setuju',
-                        value: 3
+                        value: ['S', 3]
                         },
                         {
                         text: 'Tidak Setuju',
-                        value: 2
+                        value: ['TS', 2]
                         },
                         {
                         text: 'Sangat Tidak Setuju',
-                        value: 1
+                        value: ['STS', 1]
                         },
                     ]
                     },
@@ -350,19 +350,19 @@ export default {
                     answers: [
                         {
                         text: 'Sangat Setuju',
-                        value: 1
+                        value: ['SS', 1]
                         },
                         {
                         text: 'Setuju',
-                        value: 2
+                        value: ['S', 2]
                         },
                         {
                         text: 'Tidak Setuju',
-                        value: 3
+                        value: ['TS', 3]
                         },
                         {
                         text: 'Sangat Tidak Setuju',
-                        value: 4
+                        value: ['STS', 4]
                         },
                     ]
                     },
@@ -371,19 +371,19 @@ export default {
                     answers: [
                         {
                         text: 'Sangat Setuju',
-                        value: 4
+                        value: ['SS', 4]
                         },
                         {
                         text: 'Setuju',
-                        value: 3
+                        value: ['S', 3]
                         },
                         {
                         text: 'Tidak Setuju',
-                        value: 2
+                        value: ['TS', 2]
                         },
                         {
                         text: 'Sangat Tidak Setuju',
-                        value: 1
+                        value: ['STS', 1]
                         },
                     ]
                     },
@@ -411,11 +411,34 @@ export default {
         },
             
         playAgain: function() {
-            let skor = 0
+            console.log(this.responses)
+            let bulk = []
+            let user = localStorage.getItem('idUser')
+            let angka = parseInt(user)
             this.responses.forEach((element, index) => {
-                skor += this.responses[index]
-            });
-            console.log(skor)
+            let penampung = {}
+            penampung.pengetahuanId = index + 1
+            penampung.jawaban = this.responses[index][0]  
+            penampung.point = this.responses[index][1]  
+            penampung.userId = angka
+            bulk.push(penampung)    
+            }); 
+            console.log(bulk, 'ini bulk')
+            axios.post(ipBackend + '/postPoolSikap/screening', 
+            {
+              bulk : bulk
+            }, 
+            {
+                headers: {
+                    token: localStorage.getItem("token"),
+                },
+            })
+            .then(res => {
+                console.log(res)
+            })
+            .catch(err => {
+                console.log(err)
+            })
         },
     }
 }
