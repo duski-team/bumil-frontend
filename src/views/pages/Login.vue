@@ -1,13 +1,17 @@
 <template>
-  <div class="c-app flex-row align-items-center" :class="{ 'c-dark-theme': $store.state.darkMode }">
+  <div class="c-app flex-row align-items-center" style="background-color:white">
     <CContainer>
       <CRow class="justify-content-center">
-        <CCol md="6">
+        <CCol md="10">
+          <div style="display:flex;">
+            <img style="width:100px" src="../../assets/images/vlamuid.jpeg"/>
+            <h5 style="padding-top:20px"><span style="color:#36AEEB">CIPTAKAN</span> <span style="color:#F73EB3">KELUARGA</span> <span style="color:#0AF570">SEHAT</span> <span style="color:#BA5F27">DAN</span> <span style="color:#FF8400">BAHAGIA</span></h5>
+          </div>
           <CCardGroup>
             <CCard class="p-4">
               <CCardBody>
                 <CForm>
-                  <h1>Login</h1>
+                  <h4>MEDIA EDUKASI <i>E-LEARNING</i> IUD PASCA PERSALINAN</h4>
                   <p class="text-muted">Silahkan Masukan Akun</p>
                   <CInput
                     placeholder="Username"
@@ -36,6 +40,7 @@
                 </CForm>
               </CCardBody>
             </CCard>
+            <img style="width:500px;" src="../../assets/images/vlamuid.jpeg"/>
           </CCardGroup>
         </CCol>
       </CRow>

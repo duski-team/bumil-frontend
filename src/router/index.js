@@ -10,14 +10,19 @@ const routes = [
 
   {
     path: '/',
-    redirect: '/login',
-    name: 'Login',
+    redirect: '/',
+    name: 'Logo',
     component: TheContainer,
     children: [
       {
         path: '/login',
         name: 'Login',
         component: () => import('@/views/pages/Login')
+      },
+      {
+        path: '/',
+        name: 'Logo',
+        component: () => import('@/views/Logo')
       },
       {
         path: '/register',
