@@ -49,6 +49,7 @@
                     </div>
                     
                     <div v-show="questionIndex === quiz.questions.length">
+                        <h4>Silahkan Klik Simpan untuk melanjutkan ke materi.</h4>
                       <button class="btn btn-success" @click="playAgain">
                         Simpan
                       </button>
@@ -411,19 +412,19 @@ export default {
         },
             
         playAgain: function() {
-            console.log(this.responses)
+            // console.log(this.responses)
             let bulk = []
             let user = localStorage.getItem('idUser')
             let angka = parseInt(user)
             this.responses.forEach((element, index) => {
             let penampung = {}
-            penampung.pengetahuanId = index + 1
+            penampung.sikapId = index + 1
             penampung.jawaban = this.responses[index][0]  
             penampung.point = this.responses[index][1]  
             penampung.userId = angka
             bulk.push(penampung)    
             }); 
-            console.log(bulk, 'ini bulk')
+            // console.log(bulk, 'ini bulk')
             axios.post(ipBackend + '/poolSikap/screening', 
             {
               bulk : bulk
@@ -435,6 +436,7 @@ export default {
             })
             .then(res => {
                 console.log(res)
+                this.$router.push({path: '/dashboardguest'})
             })
             .catch(err => {
                 console.log(err)

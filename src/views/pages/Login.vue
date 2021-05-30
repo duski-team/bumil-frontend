@@ -67,6 +67,7 @@ export default {
                 password : vm.password
             })
             .then(res => {
+              console.log(res, 'ini ress login')
                 if(res.data){
                     localStorage.setItem('idUser', res.data.id)
                     localStorage.setItem('role', res.data.role)

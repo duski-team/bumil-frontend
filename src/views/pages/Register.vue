@@ -69,6 +69,7 @@
                 </CInput>
                 <CInput
                   label="Nomor Hp"
+                  type="number"
                   placeholder="Silahkan Isi Nomor Handphone"
                   v-model="noHp"
                   horizontal

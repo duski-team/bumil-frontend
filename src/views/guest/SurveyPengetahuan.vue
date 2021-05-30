@@ -49,6 +49,7 @@
                     </div>
                     
                     <div v-show="questionIndex === quiz.questions.length">
+                        <h4>Silahkan Klik Simpan untuk melanjutkan</h4>
                       <button class="btn btn-success" @click="playAgain">
                         Simpan
                       </button>
@@ -375,6 +376,7 @@ export default {
             })
             .then(res => {
                 console.log(res)
+                this.$router.push({path: '/survey/sikap'})
             })
             .catch(err => {
                 console.log(err)
