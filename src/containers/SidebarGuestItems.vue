@@ -13,15 +13,15 @@ export default {
           },
           {
             _name: 'CSidebarNavDropdown',
-            name: 'Pertanyaan',
+            name: 'Soal',
             route: '/survey',
             icon: 'cil-layers',
             items: [{
-                name: 'Pertanyaan Pengetahuan',
+                name: 'Soal Pengetahuan',
                 to: '/survey/pengetahuan'
               },
               {
-                name: 'Pertanyaan Sikap',
+                name: 'Soal Sikap',
                 to: '/survey/sikap',
               },
             ]
@@ -34,18 +34,30 @@ export default {
           },
           {
             _name: 'CSidebarNavDropdown',
-            name: 'Pertanyaan Posttest',
+            name: 'Soal Akhir',
             route: '/surveypost',
             icon: 'cil-layers',
             items: [{
-                name: 'Pertanyaan Pengetahuan',
+                name: 'Soal Pengetahuan',
                 to: '/surveypost/postpengetahuan'
               },
               {
-                name: 'Pertanyaan Sikap',
+                name: 'Soal Sikap',
                 to: '/surveypost/postsikap',
               },
             ]
+          },
+          {
+            _name: 'CSidebarNavItem',
+            name: 'Pemasangan IUD',
+            to: '/pemasangan',
+            icon: 'cil-pencil'
+          },
+          {
+            _name: 'CSidebarNavItem',
+            name: 'Chat',
+            to: '/chatguest',
+            icon: 'cil-pencil'
           },
         ]
       }]

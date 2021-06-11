@@ -12,7 +12,6 @@
           </CContainer>
         </main>
       </div>
-      <TheFooter/>
     </CWrapper>
   </div>
 </template>

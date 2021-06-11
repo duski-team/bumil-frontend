@@ -5,10 +5,10 @@
     :show="show"
     @update:show="(value) => $store.commit('set', ['sidebarShow', value])"
   >
-    <CSidebarBrand class="d-md-down-none" to="/">
-      <h3>Backoffice</h3>
+    <CSidebarBrand class="d-md-down-none" to="/" style=" font-family:agencyfb">
+      <h3>Media Edukasi</h3>
     </CSidebarBrand>
-    <CRenderFunction flat :contentToRender="sidebarAdmin"/>
+    <CRenderFunction flat :contentToRender="sidebarAdmin" style=" font-family:agencyfb" />
     <CSidebarMinimizer
       class="c-d-md-down-none"
       @click.native="$store.commit('toggle', 'sidebarMinimize')"

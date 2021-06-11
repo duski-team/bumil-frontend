@@ -1,5 +1,6 @@
 <template>
     <div class="container">
+        
         <img @click="goLogin()" class="img" src="../assets/images/vlamuid.jpeg"/>
     </div>
 </template>
@@ -18,6 +19,10 @@ export default {
 <style scoped>
     .container {
         height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
     }
     .img {
         height: 100vh;

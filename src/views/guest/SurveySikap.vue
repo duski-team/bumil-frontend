@@ -396,6 +396,26 @@ export default {
             items: [],
         }
     },
+    mounted() {
+        axios.get(ipBackend + "/poolSikap/check", {
+        headers: {
+          token: localStorage.getItem("token"),
+        },
+      })
+      .then((res) => {
+        //   console.log(res)
+          if(res.data.message == "silahkan mengerjakan soal pengetahuan dahulu"){
+              this.$swal("Silahkan isi pertanyaan pengetahuan dahulu.");
+              this.$router.push({path: '/survey/pengetahuan'})
+          }else if(res.data.message == "sudah mengerjakan pertanyaan sikap"){
+              this.$swal("Maaf anda sudah mengerjakan pertanyaan ini.");
+              this.$router.push({path: '/dashboardguest'})
+          }
+      })
+      .catch((err) => {
+        console.log(err);
+      });
+    },
     methods : {  
         next: function() {
             if (this.responses[this.questionIndex] === undefined) {
@@ -435,7 +455,8 @@ export default {
                 },
             })
             .then(res => {
-                console.log(res)
+                // console.log(res)
+                this.$swal("Berhasil menyimpan jawaban.");
                 this.$router.push({path: '/dashboardguest'})
             })
             .catch(err => {

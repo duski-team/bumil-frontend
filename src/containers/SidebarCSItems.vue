@@ -14,9 +14,10 @@ export default {
           {
             _name: 'CSidebarNavItem',
             name: 'List Ibu Hamil',
-            to: '/listbumil',
+            to: '/listbumilcs',
             icon: 'cil-pencil'
           },
+
         ]
       }]
     }

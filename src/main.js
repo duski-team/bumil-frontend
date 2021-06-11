@@ -10,19 +10,24 @@ import i18n from './i18n.js'
 import { BootstrapVue, IconsPlugin } from 'bootstrap-vue'
 import VueSweetalert2 from 'vue-sweetalert2';
 import VueConfirmDialog from 'vue-confirm-dialog'
-import VueTable from '@quintet/vue-quintable'
+import VueSocketIO from 'vue-socket.io'
 
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
 import 'sweetalert2/dist/sweetalert2.min.css';
-import "@quintet/vue-quintable/dist/vue-quintable.css";
+
 
 Vue.use(CoreuiVuePro)
 Vue.use(BootstrapVue)
 Vue.use(IconsPlugin)
 Vue.use(VueSweetalert2);
 Vue.use(VueConfirmDialog)
-Vue.use(VueTable);
+Vue.use(new VueSocketIO({
+  debug: false,
+  connection: 'http://localhost:3011',
+  
+  // options: { path: "/my-app/" } //Optional options
+}))
 Vue.prototype.$log = console.log.bind(console)
 
 new Vue({

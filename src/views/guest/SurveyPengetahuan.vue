@@ -336,6 +336,23 @@ export default {
             items: [],
         }
     },
+    mounted() {
+        axios.get(ipBackend + "/poolPengetahuan/check", {
+        headers: {
+          token: localStorage.getItem("token"),
+        },
+      })
+      .then((res) => {
+        //   console.log(res)
+          if(res.data.message == "sudah"){
+              this.$swal("Maaf anda sudah mengerjakan pertanyaan ini.");
+              this.$router.push({path: '/dashboardguest'})
+          }
+      })
+      .catch((err) => {
+        console.log(err);
+      });
+    },
     methods : {  
         next: function() {
             if (this.responses[this.questionIndex] === undefined) {
@@ -352,7 +369,7 @@ export default {
         },
             
         playAgain: function() {
-          console.log(this.responses)
+        //   console.log(this.responses)
             let bulk = []
             let user = localStorage.getItem('idUser')
             let angka = parseInt(user)
@@ -364,7 +381,7 @@ export default {
             penampung.userId = angka
             bulk.push(penampung)    
             });
-            console.log(bulk, 'ini bulk')
+            // console.log(bulk, 'ini bulk')
             axios.post(ipBackend + '/poolPengetahuan/screening', 
             {
               bulk : bulk
@@ -376,6 +393,7 @@ export default {
             })
             .then(res => {
                 console.log(res)
+                this.$swal("Berhasil menyimpan jawaban.");
                 this.$router.push({path: '/survey/sikap'})
             })
             .catch(err => {

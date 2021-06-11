@@ -13,12 +13,6 @@ export default {
           },
           {
             _name: 'CSidebarNavItem',
-            name: 'List CS',
-            to: '/theme/colors',
-            icon: 'cil-pencil'
-          },
-          {
-            _name: 'CSidebarNavItem',
             name: 'List Ibu Hamil',
             to: '/listbumil',
             icon: 'cil-pencil'
@@ -37,12 +31,6 @@ export default {
                 to: '/pertanyaan/sikap'
               },
             ]
-          },
-          {
-            _name: 'CSidebarNavItem',
-            name: 'Chat',
-            to: '/chat',
-            icon: 'cil-pencil'
           },
         ]
       }]

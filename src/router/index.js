@@ -11,7 +11,7 @@ const routes = [
   {
     path: '/',
     redirect: '/',
-    name: 'Logo',
+    name: 'Home',
     component: TheContainer,
     children: [
       {
@@ -48,6 +48,11 @@ const routes = [
         component: () => import('@/views/admin/ListBumil')
       },
       {
+        path: '/listjawaban',
+        name: 'List Jawaban',
+        component: () => import('@/views/admin/ListJawaban')
+      },
+      {
         path: '/pertanyaan/pengetahuan',
         name: 'Pertanyaan Pengetahuan',
         component: () => import('@/views/admin/PertanyaanPengetahuan')
@@ -62,7 +67,7 @@ const routes = [
   {
     path: '/guest',
     redirect: '/dashboardguest',
-    name: 'Admin',
+    name: 'Guest',
     component: ContainerGuest,
     children: [
       {
@@ -79,6 +84,49 @@ const routes = [
         path: '/survey/sikap',
         name: 'Survey Sikap',
         component: () => import('@/views/guest/SurveySikap')
+      },
+      {
+        path: '/surveypost/postpengetahuan',
+        name: 'Survey Post Pengetahuan',
+        component: () => import('@/views/guest/SurveyPostPengetahuan')
+      },
+      {
+        path: '/surveypost/postsikap',
+        name: 'Survey Post Sikap',
+        component: () => import('@/views/guest/SurveyPostSikap')
+      },
+      {
+        path: '/materi',
+        name: 'Materi',
+        component: () => import('@/views/guest/Materi')
+      },
+      {
+        path: '/chatguest',
+        name: 'Chat',
+        component: () => import('@/views/guest/ChatGuest')
+      },
+      {
+        path: '/pemasangan',
+        name: 'Pemasangan IUD',
+        component: () => import('@/views/guest/PemasanganIUD')
+      },
+    ],
+  },
+  {
+    path: '/cs',
+    redirect: '/dashboardcs',
+    name: 'DashboardCS',
+    component: ContainerCS,
+    children: [
+      {
+        path: '/dashboardcs',
+        name: 'Dashboard CS',
+        component: () => import('@/views/DashboardCS')
+      },
+      {
+        path: '/listbumilcs',
+        name: 'List Bumil',
+        component: () => import('@/views/cs/ListBumilcs')
       },
     ],
   },

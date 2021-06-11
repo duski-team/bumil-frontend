@@ -1,5 +1,5 @@
 <template>
-    <div class ="surveypostsikap">
+    <div class ="surveysikap">
       <b-container>
         <b-row>
           <b-col md="12">
@@ -49,6 +49,7 @@
                     </div>
                     
                     <div v-show="questionIndex === quiz.questions.length">
+                        <h4>Silahkan Klik Simpan untuk melanjutkan ke materi.</h4>
                       <button class="btn btn-success" @click="playAgain">
                         Simpan
                       </button>
@@ -66,7 +67,7 @@
 import axios from 'axios';
 import { ipBackend } from "@/config.js";
 export default {
-    name:'surveypostsikap',
+    name:'surveysikap',
     data(){
         return {
             quiz: {
@@ -395,6 +396,28 @@ export default {
             items: [],
         }
     },
+    mounted() {
+        axios.get(ipBackend + "/postPoolSikap/check", {
+        headers: {
+          token: localStorage.getItem("token"),
+        },
+      })
+      .then((res) => {
+        //   console.log(res)
+          if(res.data.message == "silahkan mengisi soal sikap dahulu"){
+              this.$swal("Silahkan isi pertanyaan dahulu.");
+              this.$router.push({path: '/survey/sikap'})
+          }else if(res.data.tanggalMengerjakan.length){
+              let tgl = moment(res.data.tanggalMengerjakan).format("DD-MM-YYYY")
+            //   console.log(tgl, 'ini tgl')
+              this.$swal(`Silahkan mengerjakan pada ${tgl}`)
+              this.$router.push({path: '/dashboardguest'})
+          }
+      })
+      .catch((err) => {
+        console.log(err);
+      });
+    },
     methods : {  
         next: function() {
             if (this.responses[this.questionIndex] === undefined) {
@@ -411,19 +434,19 @@ export default {
         },
             
         playAgain: function() {
-            console.log(this.responses)
+            // console.log(this.responses)
             let bulk = []
             let user = localStorage.getItem('idUser')
             let angka = parseInt(user)
             this.responses.forEach((element, index) => {
             let penampung = {}
-            penampung.pengetahuanId = index + 1
+            penampung.sikapId = index + 1
             penampung.jawaban = this.responses[index][0]  
             penampung.point = this.responses[index][1]  
             penampung.userId = angka
             bulk.push(penampung)    
             }); 
-            console.log(bulk, 'ini bulk')
+            // console.log(bulk, 'ini bulk')
             axios.post(ipBackend + '/postPoolSikap/screening', 
             {
               bulk : bulk
@@ -435,6 +458,7 @@ export default {
             })
             .then(res => {
                 console.log(res)
+                this.$router.push({path: '/dashboardguest'})
             })
             .catch(err => {
                 console.log(err)

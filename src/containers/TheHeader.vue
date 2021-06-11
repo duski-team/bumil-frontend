@@ -10,8 +10,8 @@
       class="ml-3 d-md-down-none"
       @click="$store.commit('toggleSidebarDesktop')"
     />
-    <CHeaderBrand class="mx-auto d-lg-none" to="/">
-      <CIcon name="logo" height="48" alt="Logo"/>
+    <CHeaderBrand class="mx-auto d-lg-none">
+      <CIcon name="" height="48" alt="Logo"/>
     </CHeaderBrand>
     <CHeaderNav class="d-md-down-none mr-auto">
       <!-- <CHeaderNavItem class="px-3">

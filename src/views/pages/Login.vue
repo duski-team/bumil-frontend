@@ -7,8 +7,9 @@
             <img style="width:100px" src="../../assets/images/vlamuid.jpeg"/>
             <h5 style="padding-top:20px"><span style="color:#36AEEB">CIPTAKAN</span> <span style="color:#F73EB3">KELUARGA</span> <span style="color:#0AF570">SEHAT</span> <span style="color:#BA5F27">DAN</span> <span style="color:#FF8400">BAHAGIA</span></h5>
           </div>
-          <CCardGroup>
-            <CCard class="p-4">
+          <CCardGroup >
+            <img style="width:500px;" src="../../assets/images/vlamuid.jpeg"/>
+            <CCard class="p-4" >
               <CCardBody>
                 <CForm>
                   <h4>MEDIA EDUKASI <i>E-LEARNING</i> IUD PASCA PERSALINAN</h4>
@@ -40,7 +41,7 @@
                 </CForm>
               </CCardBody>
             </CCard>
-            <img style="width:500px;" src="../../assets/images/vlamuid.jpeg"/>
+            
           </CCardGroup>
         </CCol>
       </CRow>
@@ -68,7 +69,10 @@ export default {
             })
             .then(res => {
               console.log(res, 'ini ress login')
-                if(res.data){
+                if(res.data.message == "password salah"){
+                    this.$swal("Password Salah");
+                }
+                else {
                     localStorage.setItem('idUser', res.data.id)
                     localStorage.setItem('role', res.data.role)
                     localStorage.setItem('token', res.data.token)
@@ -76,15 +80,13 @@ export default {
                         vm.$router.push({ path: "/admin" });
                     }else if(res.data.role == "guest"){
                         vm.$router.push({ path: "/guest" });
-                    }else if(res.data.role == "cs"){
+                    }else if(res.data.role == "CS"){
                         vm.$router.push({ path: "/cs" });
                     }
 
                     // this.$swal('Selamat Anda Telah Login');
                 }
-                else {
-                    this.$swal("eror");
-                }
+                
                 console.log(res.data,'ini ress')
             })
             .catch(err => {
