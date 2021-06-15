@@ -7,16 +7,11 @@ export default {
         _name: 'CSidebarNav',
         _children: [{
             _name: 'CSidebarNavItem',
-            name: this.$t('menu.dashboard'),
-            to: '/dashboardcs',
-            icon: 'cil-speedometer',
-          },
-          {
-            _name: 'CSidebarNavItem',
             name: 'List Ibu Hamil',
             to: '/listbumilcs',
-            icon: 'cil-pencil'
+            icon: 'cil-pencil',
           },
+
 
         ]
       }]

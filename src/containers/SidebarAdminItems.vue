@@ -7,15 +7,21 @@ export default {
         _name: 'CSidebarNav',
         _children: [{
             _name: 'CSidebarNavItem',
-            name: this.$t('menu.dashboard'),
+            name: 'Dashboard Admin',
             to: '/dashboardadmin',
-            icon: 'cil-speedometer',
+            icon:'cil-speedometer'
           },
           {
             _name: 'CSidebarNavItem',
-            name: 'List Ibu Hamil',
+            name: 'List Data Ibu Hamil',
+            to: '/listuser',
+            icon: 'cil-pencil',
+          },
+          {
+            _name: 'CSidebarNavItem',
+            name: 'List Nilai Ibu Hamil',
             to: '/listbumil',
-            icon: 'cil-pencil'
+            icon: 'cil-pencil',
           },
           {
             _name: 'CSidebarNavDropdown',

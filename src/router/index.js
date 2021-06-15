@@ -33,7 +33,7 @@ const routes = [
   },
   {
     path: '/admin',
-    redirect: '/dashboardadmin',
+    redirect: '/listbumil',
     name: 'Admin',
     component: ContainerAdmin,
     children: [
@@ -44,13 +44,23 @@ const routes = [
       },
       {
         path: '/listbumil',
-        name: 'List Ibu Hamil',
+        name: 'List Nilai Ibu Hamil',
         component: () => import('@/views/admin/ListBumil')
+      },
+      {
+        path: '/listuser',
+        name: 'List Data Ibu Hamil',
+        component: () => import('@/views/admin/ListUser')
       },
       {
         path: '/listjawaban',
         name: 'List Jawaban',
         component: () => import('@/views/admin/ListJawaban')
+      },
+      {
+        path: '/detailuser',
+        name: 'Detail',
+        component: () => import('@/views/admin/DetailUser')
       },
       {
         path: '/pertanyaan/pengetahuan',
@@ -114,8 +124,8 @@ const routes = [
   },
   {
     path: '/cs',
-    redirect: '/dashboardcs',
-    name: 'DashboardCS',
+    redirect: '/listbumilcs',
+    name: 'List Bumil',
     component: ContainerCS,
     children: [
       {

@@ -1,7 +1,6 @@
 <template>
-    <div class="container">
-        
-        <img @click="goLogin()" class="img" src="../assets/images/vlamuid.jpeg"/>
+    <div @click="goLogin()" class="container">       
+        <img  class="img" src="../assets/images/vlamuid.jpeg"/>
     </div>
 </template>
 
@@ -22,10 +21,10 @@ export default {
         display: flex;
         justify-content: center;
         align-items: center;
-        flex-direction: column;
+        background-color: white;
     }
     .img {
-        height: 100vh;
-
+        width:100%;
+        height:350px
     }
 </style>

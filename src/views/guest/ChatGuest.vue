@@ -150,11 +150,7 @@
                       >
                   </div>
                   </div>
-                  <div  >
-                      <b-button variant="primary" @click="kirimChat"
-                        >Kirim</b-button
-                      >
-                  </div>
+
                 </div>
               </b-col>
             </b-row>

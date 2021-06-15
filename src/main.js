@@ -11,6 +11,7 @@ import { BootstrapVue, IconsPlugin } from 'bootstrap-vue'
 import VueSweetalert2 from 'vue-sweetalert2';
 import VueConfirmDialog from 'vue-confirm-dialog'
 import VueSocketIO from 'vue-socket.io'
+import VueAnalytics from 'vue-analytics'
 
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
@@ -24,10 +25,13 @@ Vue.use(VueSweetalert2);
 Vue.use(VueConfirmDialog)
 Vue.use(new VueSocketIO({
   debug: false,
-  connection: 'http://localhost:3011',
-  
+  connection: 'http://149.129.240.254:3011',
   // options: { path: "/my-app/" } //Optional options
 }))
+Vue.use(VueAnalytics, {
+  id: 'UA-199567408-1'
+})
+
 Vue.prototype.$log = console.log.bind(console)
 
 new Vue({

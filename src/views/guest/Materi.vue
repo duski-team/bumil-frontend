@@ -20,11 +20,11 @@
                         </CButton>
                         <CCollapse :show="accordion === 0">
                             <CCardBody style="font-family:agencyfb; font-size:18px">
-                            <center><iframe  src="https://www.youtube.com/embed/XfZP8GUYMFo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+                            <center><iframe  src="https://www.youtube.com/embed/XfZP8GUYMFo" title="YouTube video player" allowfullscreen></iframe></center>
                             <p>KB pasca persalinan merupakan pelayanan KB yang diberikan kepada pasangan usia subur setelah persalinan sampai kurun waktu 6 minggu (42 hari).<br>
                             KB pasca persalinan merupakan suatu upaya yang dilakukan untuk menurunkan angka kematian ibu (AKI) dan angka kematian bayi (AKB).<br>
                             Penggunaan kontrasepsi harus direncanakan pada masa kehamilan sehingga dapat mempengaruhi ibu untuk memulai metode kontrasepsi yang dipilihnya sesegera mungkin setelah melahirkan.</p>
-                            <center><iframe  src="https://www.youtube.com/embed/fqmcBqZxMF4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+                            <center><iframe  src="https://www.youtube.com/embed/fqmcBqZxMF4" title="YouTube video player" allowfullscreen></iframe></center>
                             <p>Tujuan KB pasca persalinan:<br>
                             a)	Menjarangkan kehamilan<br>
                             b)	Mencegah kehamilan yang tidak direncanakan, sehingga setiap keluarga dapat merencanakan kehamilan yang aman dan sehat.<br>
@@ -44,7 +44,7 @@
                         </CButton>
                         <CCollapse :show="accordion === 1">
                             <CCardBody style="font-family:agencyfb; font-size:18px">
-                                <center><iframe  src="https://www.youtube.com/embed/VNf9Pqs60vw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+                                <center><iframe  src="https://www.youtube.com/embed/VNf9Pqs60vw" title="YouTube video player" allowfullscreen></iframe></center>
                                 <p>Alat kontrasepsi berbentuk kecil yang terdiri dari rangka plastik yang lentur dengan lengan tembaga dan disertai dengan benang yang dipasang kedalam rahim. IUD dapat digolongkan menjadi dua jenis, yaitu IUD yang tidak mengandung hormon dan IUD yang mengandung hormon. </p>
                                 <p>IUD merupakan salah satu metode untuk mencegah kehamilan yang aman dan efektif digunakan setelah persalinan normal maupun operasi sesar. Dibandingkan dengan sterilisasi, IUD lebih sederhana, lebih murah, dan dapat segera hamil kembali ketika dilepas. IUD yang dipasang setelah melahirkan dapat meningkatkan fokus ibu untuk mengasuh anak tanpa khawatir akan terjadinya kehamilan yang tidak diharapkan. Pemasangan IUD segera setelah persalinan di fasilitas kesehatan juga dapat mencegah kehilangan kesempatan untuk mendapatkan perlindungan kontrasepsi (<i>missed opportunity</i>) </p>
                             </CCardBody>
@@ -61,7 +61,7 @@
                         </CButton>
                         <CCollapse :show="accordion === 2">
                             <CCardBody>
-                                <center><iframe  src="https://www.youtube.com/embed/fmAOm7waG24" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+                                <center><iframe  src="https://www.youtube.com/embed/fmAOm7waG24" title="YouTube video player" allowfullscreen></iframe></center>
                                 <p>Pemasangan IUD setelah melahirkan dapat dilakukan pada :<br>
                                 a.	Boleh dipasang dalam waktu 10 menit setelah plasenta lahir.<br>
                                 b.	Dipasang dalam waktu 48 jam setelah melahirkan.<br>
@@ -82,7 +82,7 @@
                         </CButton>
                         <CCollapse :show="accordion === 3">
                             <CCardBody>
-                                <center><iframe  src="https://www.youtube.com/embed/P_bxRSOhxxo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+                                <center><iframe  src="https://www.youtube.com/embed/P_bxRSOhxxo" title="YouTube video player" allowfullscreen></iframe></center>
                                 <p>Saat ini, terdapat 2 jenis alat kontrasepsi dalam rahim (AKDR/IUD) yaitu IUD yang hanya mengandung tembaga (Un-medicated), dan IUD yang mendapat tambahan kandungan hormon (Medicated). </p>
                                 <p>a.	IUD yang hanya mengandung tembaga meliputi :<br>
                                         1)	Cu T- 200 B: memiliki karakteristik panjang 36 mm, lebar 32 mm, mengandung 200 mm2  kawat halus tembaga, ujung bagian bawah batang IUD berbentuk bola. Efektif digunakan selama 3 tahun.<br>
@@ -108,7 +108,7 @@
                         </CButton>
                         <CCollapse :show="accordion === 4">
                             <CCardBody style="font-family:timesnewroman; font-size:18px">
-                                <center><iframe  src="https://www.youtube.com/embed/DTB8rkt4l4I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+                                <center><iframe  src="https://www.youtube.com/embed/DTB8rkt4l4I" title="YouTube video player" allowfullscreen></iframe></center>
                                 <p>Secara umum, mencegah bertemunya sel telur dan sperma dan mencegah menempelnya hasil pembuahan pada rahim9. Berikut adalah cara kerja berdasarkan jenis IUD yaitu :
                                 </p>
                                 <table>
@@ -147,7 +147,7 @@
                         </CButton>
                         <CCollapse :show="accordion === 5">
                             <CCardBody>
-                                <center><iframe  src="https://www.youtube.com/embed/Zs4PKUpXGeU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+                                <center><iframe  src="https://www.youtube.com/embed/Zs4PKUpXGeU" title="YouTube video player" allowfullscreen></iframe></center>
                                 <p>Sebagian besar perempuan dapat memakai IUD (AKDR) sebagai alat kontrasepsi untuk mencegah kehamilan9. Beberapa kondisi ibu yang dapat menggunakan IUD diantaranya :<br>
                                 a.	Pernah melahirkan dan telah memiliki anak.<br>
                                 b.	Menginginkan untuk menggunakan metode kontrasepsi untuk jangka panjang.<br>
@@ -171,7 +171,7 @@
                         </CButton>
                         <CCollapse :show="accordion === 6">
                             <CCardBody>
-                                <center><iframe  src="https://www.youtube.com/embed/jHVsfLyrzg8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+                                <center><iframe  src="https://www.youtube.com/embed/jHVsfLyrzg8" title="YouTube video player" allowfullscreen></iframe></center>
                                 <p>Berikut adalah kondisi ibu yang tidak diperbolehkan menggunakan IUD (AKDR) diantaranya : <br>
                                 a.	Sedang hamil. <br>
                                 b.	Memiliki resiko infeksi menular seksual termasuk HIV/AID yang tinggi, meliputi : <br>
@@ -196,7 +196,7 @@
                         </CButton>
                         <CCollapse :show="accordion === 7">
                             <CCardBody>
-                                <center><iframe  src="https://www.youtube.com/embed/tWkyuFhWnRU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>    </center>
+                                <center><iframe  src="https://www.youtube.com/embed/tWkyuFhWnRU" title="YouTube video player" allowfullscreen></iframe>    </center>
                                 <p>Penggunaan IUD/ AKDR memiliki banyak keuntungan, termasuk pada pemasangan setelah melahirkan. Keuntungan tersebut diantaranya : <br>
                                 a.	IUD merupakan alat kontrasepsi yang aman dan efektif digunakan setelah melahirkan baik setelah persalinan normal maupun operasi sesar. <br>
                                 b.	Tingkat efektivitasnya tinggi dengan kegagalan 1: 1000 pengguna. <br>
@@ -225,7 +225,7 @@
                         </CButton>
                         <CCollapse :show="accordion === 8">
                             <CCardBody>
-                                <center><iframe  src="https://www.youtube.com/embed/hER3HJsYeb4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+                                <center><iframe  src="https://www.youtube.com/embed/hER3HJsYeb4" title="YouTube video player" allowfullscreen></iframe></center>
                                 <p>a.	Pemasangan dan pelepasan membutuhkan tenaga kesehatan dengan pelatihan khusus. Semua bidan dan dokter yang membantu pemasangan dan pelepasan IUD telah mendapatan pelatihan dan telah dinyatakan kompeten. Sehingga dapat dikatakan aman. <br>
                                 b.	Tidak melindungi pengguna dari penyakit kelamin termasuk HIV/AIDS. Penggunaan IUD pada pengguna dengan HIV/AIDS hanya boleh dilakukan bila ada metode lain yang cocok. <br>
                                 c.	Dapat terjadi kegagalan pemasangan dan ekspulsi (keluarnya IUD lewat jalan lahir). Kegagalan pemasangan dan ekspulsi dapat dikurangi dengan penggunaan metode dan inserter (alat untuk memasang IUD) yang tepa serta dilakukan oleh tenaga kesehatan yang kompeten.
@@ -244,7 +244,7 @@
                         </CButton>
                         <CCollapse :show="accordion === 9">
                             <CCardBody>
-                                <center><iframe  src="https://www.youtube.com/embed/A13Szj2sQ2k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+                                <center><iframe  src="https://www.youtube.com/embed/A13Szj2sQ2k" title="YouTube video player" allowfullscreen></iframe></center>
                                 <p>Beberapa efek samping yang dapat terjadi selama penggunaan IUD diantaranya : <br>
                                     Sebagian efek samping yang dapat terjadi tidak berbahaya dan bukan tanda-tanda penyakit. Efek samping yang terjadi kemungkinan merupakan bentuk penyesuaian tubuh setelah pemasangan dan pada setiap orang berbeda reaksinya.
                                 </p>
@@ -302,7 +302,7 @@
                         </CButton>
                         <CCollapse :show="accordion === 10">
                             <CCardBody>
-                                <center><iframe  src="https://www.youtube.com/embed/powIjFrkqPY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+                                <center><iframe  src="https://www.youtube.com/embed/powIjFrkqPY" title="YouTube video player" allowfullscreen></iframe></center>
                                 <p>Pemasangan dan pelepasan IUD dilakukan oleh tenaga kesehatan yang kompeten di fasilitas kesehatan (rumah sakit, puskesmas atau Praktik bidan). Tindakan tersebut dilakukan tanpa bius dan ibu dalam keadaan sadar.</p>
                             </CCardBody>
                         </CCollapse>
@@ -318,7 +318,7 @@
                         </CButton>
                         <CCollapse :show="accordion === 11">
                             <CCardBody>
-                                <center><iframe  src="https://www.youtube.com/embed/JAw6FuSO-q4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+                                <center><iframe  src="https://www.youtube.com/embed/JAw6FuSO-q4" title="YouTube video player" allowfullscreen></iframe></center>
                                 <p>Setelah pemasangan IUD, pemeriksaan dapat dilakukan satu minggu setelah pemasangan. Untuk pemeriksaan selanjutnya, dianjurkan untuk melakukan kunjungan ulang dalam 3-6 minggu, atau setelah masa haid berikutnya. Selain itu, datanglah ke fasilitas kesehatan untuk kunjungan ulang kapanpun jika ada masalah dan keluhan atau ingin melepas IUD.</p>
                             </CCardBody>
                         </CCollapse>
@@ -334,7 +334,7 @@
                         </CButton>
                         <CCollapse :show="accordion === 12">
                             <CCardBody>
-                                <center><iframe  src="https://www.youtube.com/embed/aFLgPp5c_sk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+                                <center><iframe  src="https://www.youtube.com/embed/aFLgPp5c_sk" title="YouTube video player" allowfullscreen></iframe></center>
                             <p>Cuci tangan, duduk dalam posisi jongkok, masukkan jari kedalam vagina dan rasakan benang IUD (AKDR) di mulut rahim. Jangan menarik benangnya, dirasakan saja. Setelah itu, cuci tangan setelah selesai.</p>
                             </CCardBody>
                         </CCollapse>

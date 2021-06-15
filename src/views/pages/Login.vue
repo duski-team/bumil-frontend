@@ -8,8 +8,11 @@
             <h5 style="padding-top:20px"><span style="color:#36AEEB">CIPTAKAN</span> <span style="color:#F73EB3">KELUARGA</span> <span style="color:#0AF570">SEHAT</span> <span style="color:#BA5F27">DAN</span> <span style="color:#FF8400">BAHAGIA</span></h5>
           </div>
           <CCardGroup >
-            <img style="width:500px;" src="../../assets/images/vlamuid.jpeg"/>
+            
+              <img style="width:300px" src="../../assets/images/vlamuid.jpeg"/>
+            
             <CCard class="p-4" >
+              
               <CCardBody>
                 <CForm>
                   <h4>MEDIA EDUKASI <i>E-LEARNING</i> IUD PASCA PERSALINAN</h4>
